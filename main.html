@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="POST">
+	<form method="post">
 		<div>
 		<lable for="name">Name*</lable>
 		<input type="text" id="name" requried>
@@ -18,8 +18,9 @@
 			<input type="text" id="email" required>
 		</div>
 		<div>
-			<lable for="gender">Gender*</lable>
-			<input type="radio" id="gender" required>
+			<lable>Gender*</lable>
+			<input type="radio" value="female" name="gender" required>
+			<input type="radio" name="gender" required>
 		</div>
 		<div>
 			<lable for="Laptop">Laptop Brands</lable>
@@ -31,7 +32,7 @@
 		</div>
 		<div>
 	         <lable for="age">Age*</lable>
-			<input type="text" id="age" required>
+			<input type="number" id="age" required>
 		</div>
 		<div>
 			<label for="dob">DOB*</label>
@@ -42,9 +43,7 @@
 			<input type="password" id="password" required>
 		</div>
 		<div>
-			<lable for="portfolio">portfolio</lable>
 			<input type="url" id="portfolio">
-		<div>
 			<button type="submit">submit</button>
 		</div>
 	</form>
